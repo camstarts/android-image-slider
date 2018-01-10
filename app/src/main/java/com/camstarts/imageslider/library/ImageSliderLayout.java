@@ -1,4 +1,4 @@
-package com.camstarts.imageslider;
+package com.camstarts.imageslider.library;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,7 +12,6 @@ import android.view.animation.Interpolator;
 import android.widget.RelativeLayout;
 
 import com.camstarts.imageslider.R;
-import com.camstarts.imageslider.SliderAdapter;
 import com.camstarts.imageslider.library.animations.BaseAnimationInterface;
 import com.camstarts.imageslider.library.indicators.PagerIndicator;
 import com.camstarts.imageslider.library.slidertypes.BaseSliderView;

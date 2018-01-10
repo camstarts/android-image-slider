@@ -1,4 +1,4 @@
-package com.camstarts.imageslider;
+package com.camstarts.imageslider.library;
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;

@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     tools:context="com.camstarts.imageslider.MainSliderActivity">
 
-    <com.camstarts.imageslider.ImageSliderLayout
+    <com.camstarts.imageslider.library.ImageSliderLayout
         android:id="@+id/slider"
         android:layout_width="match_parent"
         android:layout_height="200dp">
 
-    </com.camstarts.imageslider.ImageSliderLayout>
+    </com.camstarts.imageslider.library.ImageSliderLayout>
 
 
 </GridLayout>

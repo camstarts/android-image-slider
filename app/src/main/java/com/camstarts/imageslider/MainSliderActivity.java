@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.camstarts.imageslider.library.ImageSliderLayout;
 import com.camstarts.imageslider.library.animations.DescriptionAnimation;
 import com.camstarts.imageslider.library.slidertypes.BaseSliderView;
 import com.camstarts.imageslider.library.slidertypes.TextSliderView;
@@ -23,10 +24,10 @@ public class MainSliderActivity extends AppCompatActivity implements BaseSliderV
         mDemoSlider = (ImageSliderLayout)findViewById(R.id.slider);
 
         HashMap<String,String> url_maps = new HashMap<String, String>();
-        url_maps.put("Hannibal", "https://1.bp.blogspot.com/-FtQvUub1U7w/WVXojLlop0I/AAAAAAAALi0/4nWLINs3trojXaodYb5w0ZvJstTCnbzEwCLcBGAs/s1600/56.jpg");
-        url_maps.put("Big Bang Theory", "https://3.bp.blogspot.com/-I52wbFiH8tI/WVXojBvzDjI/AAAAAAAALi8/FV4MYnSCSAIIDfz74TkOvgKKm7Mq9fdjACLcBGAs/s1600/57.jpg");
-        url_maps.put("House of Cards", "https://2.bp.blogspot.com/-BVKuou9a_ro/WVXojPKdASI/AAAAAAAALi4/8rg0fc71iYogsNJhXAR9SmaijKdQX1mLQCLcBGAs/s1600/58.jpg");
-        url_maps.put("Game of Thrones", "https://3.bp.blogspot.com/-sNI_geeaxiQ/WVXojyXtY2I/AAAAAAAALjA/kauYvxoNI7EdBamHxc6O8_tF3yYlbeP4wCLcBGAs/s1600/59.jpg");
+        url_maps.put("Picture 1", "https://1.bp.blogspot.com/-FtQvUub1U7w/WVXojLlop0I/AAAAAAAALi0/4nWLINs3trojXaodYb5w0ZvJstTCnbzEwCLcBGAs/s1600/56.jpg");
+        url_maps.put("Picture 2", "https://3.bp.blogspot.com/-I52wbFiH8tI/WVXojBvzDjI/AAAAAAAALi8/FV4MYnSCSAIIDfz74TkOvgKKm7Mq9fdjACLcBGAs/s1600/57.jpg");
+        url_maps.put("Picture 3", "https://2.bp.blogspot.com/-BVKuou9a_ro/WVXojPKdASI/AAAAAAAALi4/8rg0fc71iYogsNJhXAR9SmaijKdQX1mLQCLcBGAs/s1600/58.jpg");
+        url_maps.put("Picture 4", "https://3.bp.blogspot.com/-sNI_geeaxiQ/WVXojyXtY2I/AAAAAAAALjA/kauYvxoNI7EdBamHxc6O8_tF3yYlbeP4wCLcBGAs/s1600/59.jpg");
 
 
         for(String name : url_maps.keySet()){

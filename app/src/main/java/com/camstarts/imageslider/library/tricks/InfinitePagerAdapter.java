@@ -6,7 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.camstarts.imageslider.SliderAdapter;
+import com.camstarts.imageslider.library.SliderAdapter;
 
 
 /**
