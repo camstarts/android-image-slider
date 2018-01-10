@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">imageslider</string>
+    <string name="todo">TODO</string>
+    <string name="image_name">Image Name</string>
+</resources>
